@@ -11,10 +11,17 @@ printf("enter b");
 scanf("%d",&b);
 
 printf("the addition is %d",add(a,b));
+printf("the addition is %d",sub(a,b));
+
 }
 
 int add(int x,int y)
 {
 return x+y;
+
+}
+int sub(int x,int y)
+{
+return x-y;
 
 }
